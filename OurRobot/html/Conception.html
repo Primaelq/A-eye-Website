@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<meta charset="UTF-8">
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/ConceptionStyle.css">
+    <title>A-eye Robotics</title>
+  </head>
+  </body>
+    <div id="HeaderID">
+      <div>
+
+      </div>
+    </div>
+    <section id="MainContentID">
+      <div id="ContainerID">
+        <div style="height: 1%; width: 100%;"></div>
+        <h1 style="">Conception :</h1>
+        <p>
+          Après avoir rempli notre cahier des charge, nous avions à faire le choix des composants.
+        </p>
+        <h2>La carte mère:</h2>
+        <p>
+          Partant avec l’idée d’utiliser une carte de type arduino, car bien documentée, peu chère et très modulable, il fallait déterminer quel modèle était nécessaire.
+          Les critères de choix que nous avons identifié sont les capacités en terme de processeur, de mémoire, mais surtout en nombre de ports de connexion. Ce dernier est dépendant du nombre de
+          capteurs à mettre en oeuvre et comme nous le verrons plus loin de la mise en place du module pilotant les moteurs. Ce bloc qui permet de piloter les moteurs monopolisant à lui seul un
+          grand nombre de ports, nous nous sommes orienté vers un modèle Arduino Mega nous laissant un nombre d’emplacements suffisant pour connecter les différents capteurs nécessaire au projet.
+        </p>
+        <h2>La locomotion :</h2>
+        <p>
+          Notre choix c’est rapidement porté sur un ensemble comportant un chassis, des roues et leurs moteurs. En effet, nous avions ainsi une base sur laquelle construire notre robot tout en nous
+          réservant la possibilité de dessiner et découper notre propre chassis.
+        </p>
+        <h2>Motricité :</h2>
+        <p>
+          Les moteurs propulsant notre robot nécessitent à la fois une source d'énergie relativement importante, par rapport à ce que peux offrir l’Arduino, et une technologie permettant leurs
+          pilotage autonome. Ainsi nous avons opté pour un module de pilotage de moteur, dit “motor shield”, qui permet de piloter les différents moteurs.
+        </p>
+        <h2>Communication :</h2>
+        <p>
+          Nous avions évoqué les différents moyens de réaliser un transfère de données entre notre robot et un smartphone. Entre le Wifi, le Bluetooth et l'émetteur/récepteur radio, nous avons choisi
+          d'utiliser un module Bluetooth. Celui-ci permettait à la fois d'économiser de l'énergie ainsi que d'effectuer un transfert rapide sur une distance raisonable.
+        </p>
+        <h1>Notre robot à différentes étapes :</h1>
+        <h2>Arrêt avant l'obstacle :</h2>
+        <video width="50%" height="auto" controls style="margin-left: 25%;">
+            <source src="../../GlobalSources/VID_20160125_175006.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2>Il découvre son environnement :</h2>
+        <video width="50%" height="auto" controls style="margin-left: 25%;">
+            <source src="../../GlobalSources/VID_20160125_172351.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+  </body>
+</html>

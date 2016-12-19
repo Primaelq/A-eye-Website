@@ -1,0 +1,98 @@
+body
+{
+  background-image: url("../src/background.jpg");
+  background-position: center, fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+@font-face
+{
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../../Font/Raleway-Thin.ttf');
+}
+
+@media (min-width: 1000px)
+{
+  h1
+  {
+    font-family: 'Raleway';
+    font-weight: 200;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  p
+  {
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 1650px)
+{
+  h1
+  {
+    font-family: 'Raleway';
+    font-weight: 200;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p
+  {
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: white;
+    font-size: 25pt;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+
+#HeaderID
+{
+  height: 70%;
+  width: 100%;
+}
+
+#HeaderID > div
+{
+  height: 60%;
+  width: 20%;
+  background: #2E241F;
+  opacity: 0.5;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+
+#MainContentID
+{
+  background: #1D2021;
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+#ContainerID
+{
+  position: relative;
+  width: 90%;
+  background: #272C2E;
+  margin-left: 5%;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}

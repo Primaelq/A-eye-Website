@@ -1,0 +1,554 @@
+body
+{
+  background-image: url("../src/backgroundAlt2.jpg");
+  background-position: center, fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 0;
+}
+
+@font-face
+{
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../../Font/Raleway-Thin.ttf');
+}
+
+@media (min-width: 1000px)
+{
+
+  h1
+  {
+    font-size: 38px;
+    color: white;
+  }
+
+  p
+  {
+    font-family: 'Raleway';
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+  }
+
+  .MoreButton
+  {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+}
+
+@media (min-width: 1650px)
+{
+
+  h1
+  {
+    font-size: 50px;
+    color: white;
+  }
+
+  p
+  {
+    font-family: 'Raleway';
+    font-weight: 100;
+    font-size: 38px;
+    color: white;
+  }
+
+  .MoreButton
+  {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+}
+
+.RightContent
+{
+  width: 60%;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+
+.LeftContent
+{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+section
+{
+  transition-duration: 1s;
+}
+
+#HeaderID
+{
+  height: 75%;
+  width: 100%;
+}
+
+#HeaderID > div
+{
+  height: 40%;
+  width: 20%;
+  background: #2E241F;
+  opacity: 0.75;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+#HeaderID > div > img
+{
+  height: 72%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+#MainContentID
+{
+  background: #1D2021;
+  height: 525%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#IntroductionID
+{
+  width: 100%;
+  height: 5%;
+  margin-top: -2%;
+}
+
+#IntroductionID > h1
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  margin: 5%;
+  text-align: center
+}
+
+#ArduinoID
+{
+  position: relative;
+  width: 80%;
+  height: 11%;
+  background: #272C2E;
+  margin-left: 10%;
+  z-index: 1;
+}
+
+#ArduinoID > .LeftContent > img
+{
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 24% auto;
+  margin-left: 5%;
+}
+
+#ArduinoID > div > h1
+{
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-align: center
+}
+
+#ArduinoID > div > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  margin: 2%;
+  text-align: center
+}
+
+#ArduinoExtendID
+{
+  position: relative;
+  width: 90%;
+  background: #272C2E;
+  margin-left: 5%;
+  visibility: hidden;
+  -webkit-transition-duration: 1s;
+  -webkit-transform: scaleY(0);
+  transform-origin: top;
+  z-index: -1;
+  padding-bottom: 50px;
+}
+
+#ArduinoExtendID *
+{
+  visibility: hidden;
+}
+
+#ArduinoExtendID > p
+{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+}
+
+#MotorShieldID
+{
+  position: relative;
+  width: 80%;
+  height: 11%;
+  background: #272C2E;
+  margin-left: 10%;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+#MotorShieldID > .LeftContent > img
+{
+  width: 80%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 20%;
+}
+
+#MotorShieldID  > div > h1
+{
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-align: center
+}
+
+#MotorShieldID  > div > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  margin: 2%;
+  text-align: center
+}
+
+#MotorShieldExtendID
+{
+  position: relative;
+  width: 90%;
+  background: #272C2E;
+  margin-left: 5%;
+  visibility: hidden;
+  -webkit-transition-duration: 1s;
+  -webkit-transform: scaleY(0);
+  transform-origin: top;
+  z-index: -1;
+  padding-bottom: 50px;
+}
+
+#MotorShieldExtendID *
+{
+  visibility: hidden;
+}
+
+#MotorShieldExtendID > p
+{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+}
+
+#BluetoothID
+{
+  width: 80%;
+  height: 11%;
+  background: #272C2E;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#BluetoothID > .LeftContent > img
+{
+  width: 80%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 18%;
+  z-index: 1;
+}
+
+#BluetoothID > div > h1
+{
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-align: center
+}
+
+#BluetoothID  > div > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  margin: 2%;
+  text-align: center
+}
+
+#BluetoothExtendID
+{
+  position: relative;
+  width: 90%;
+  background: #272C2E;
+  margin-left: 5%;
+  visibility: hidden;
+  -webkit-transition-duration: 1s;
+  -webkit-transform: scaleY(0);
+  transform-origin: top;
+  z-index: -1;
+  padding-bottom: 50px;
+}
+
+#BluetoothExtendID *
+{
+  visibility: hidden;
+}
+
+#BluetoothExtendID > p
+{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+}
+
+#CompassID
+{
+  width: 80%;
+  height: 11%;
+  background: #272C2E;
+  margin-left: 10%;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+#CompassID > .LeftContent > img
+{
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 8% auto;
+  margin-left: 10%;
+}
+
+#CompassID > div > h1
+{
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-align: center
+}
+
+#CompassID  > div > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  margin: 2%;
+  text-align: center
+}
+
+#CompassExtendID
+{
+  position: relative;
+  width: 90%;
+  background: #272C2E;
+  margin-left: 5%;
+  visibility: hidden;
+  -webkit-transition-duration: 1s;
+  -webkit-transform: scaleY(0);
+  transform-origin: top;
+  z-index: -1;
+  padding-bottom: 50px;
+}
+
+#CompassExtendID *
+{
+  visibility: hidden;
+}
+
+#CompassExtendID > p
+{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+}
+
+#SonarID
+{
+  width: 80%;
+  height: 11%;
+  background: #272C2E;
+  margin-left: 10%;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+#SonarID > .LeftContent > img
+{
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 20% auto;
+  margin-left: 5%;
+}
+
+#SonarID > div > h1
+{
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-align: center
+}
+
+#SonarID  > div > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  margin: 2%;
+  text-align: center
+}
+
+#SonarExtendID
+{
+  position: relative;
+  width: 90%;
+  background: #272C2E;
+  margin-left: 5%;
+  visibility: hidden;
+  -webkit-transition-duration: 1s;
+  -webkit-transform: scaleY(0);
+  transform-origin: top;
+  z-index: -1;
+  padding-bottom: 50px;
+}
+
+#SonarExtendID *
+{
+  visibility: hidden;
+}
+
+#SonarExtendID > p
+{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+}
+
+#LaserID
+{
+  width: 80%;
+  height: 11%;
+  background: #272C2E;
+  margin-left: 10%;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+#LaserID > .LeftContent > img
+{
+  width: 80%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+#LaserID > div > h1
+{
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-align: center
+}
+
+#LaserID  > div > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  margin: 2%;
+  text-align: center
+}
+
+#LaserExtendID
+{
+  position: relative;
+  width: 90%;
+  background: #272C2E;
+  margin-left: 5%;
+  visibility: hidden;
+  -webkit-transition-duration: 1s;
+  -webkit-transform: scaleY(0);
+  transform-origin: top;
+  z-index: -1;
+  padding-bottom: 50px;
+}
+
+#LaserExtendID *
+{
+  visibility: hidden;
+}
+
+#LaserExtendID > p
+{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+}
+
+#ProximityID
+{
+  width: 80%;
+  height: 11%;
+  background: #272C2E;
+  margin-left: 10%;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+#ProximityID > .LeftContent > img
+{
+  width: 80%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 20%;
+}
+
+#ProximityID > div > h1
+{
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-align: center
+}
+
+#ProximityID  > div > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  margin: 2%;
+  text-align: center
+}
+
+#ProximityExtendID
+{
+  position: relative;
+  width: 90%;
+  background: #272C2E;
+  margin-left: 5%;
+  visibility: hidden;
+  -webkit-transition-duration: 1s;
+  -webkit-transform: scaleY(0);
+  transform-origin: top;
+  z-index: -1;
+  padding-bottom: 50px;
+}
+
+#ProximityExtendID *
+{
+  visibility: hidden;
+}
+
+#ProximityExtendID > p
+{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+}

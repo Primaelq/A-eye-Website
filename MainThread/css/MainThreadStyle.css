@@ -1,0 +1,645 @@
+body
+{
+  margin: 0;
+  overflow: hidden;
+  background: #222c37;
+}
+
+/*--------------------Tools--------------------*/
+
+@font-face
+{
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../../Font/Raleway-Thin.ttf');
+}
+
+.circle
+{
+	border-radius: 4000px;
+	-webkit-border-radius: 4000px;
+	-moz-border-radius: 4000px;
+}
+
+.openDiv
+{
+
+}
+
+.openDivLast
+{
+
+}
+
+a
+{
+  color: inherit;
+}
+
+input
+{
+  transition-duration: 2s;
+}
+
+@media (min-width: 1000px)
+{
+  h1
+  {
+      font-size: 300%;
+  }
+
+  h2
+  {
+      font-size: 250%;
+  }
+
+  h4
+  {
+      font-size: 200%;
+  }
+
+  p
+  {
+      font-size: 180%;
+  }
+
+  .circle
+  {
+  	width: 18%;
+  	height: auto%;
+  }
+
+
+  #ConclusionLeftID > h1
+  {
+    font-size: 160%;
+  }
+
+  #ConclusionRightID > h1
+  {
+    font-size: 160%;
+    opacity: 0;
+  }
+
+  #ConclusionLeftID > p
+  {
+    font-size: 110%;
+  }
+
+  #ConclusionRightID > p
+  {
+    font-size: 110%;
+  }
+}
+
+@media (min-width: 1650px)
+{
+
+  h1
+  {
+      font-size: 350%;
+  }
+
+  h2
+  {
+      font-size: 350%;
+  }
+
+  h4
+  {
+      font-size: 280%;
+  }
+
+  p
+  {
+      font-size: 250%;
+  }
+
+  .circle
+  {
+  	width: 22%;
+  	height: auto;
+  }
+
+  #ConclusionLeftID > h1
+  {
+    font-size: 210%;
+  }
+
+  #ConclusionRightID > h1
+  {
+    font-size: 210%;
+    opacity: 0;
+  }
+
+  #ConclusionLeftID > p
+  {
+    font-size: 160%;
+  }
+
+  #ConclusionRightID > p
+  {
+    font-size: 160%;
+  }
+}
+/*--------------------HomePage--------------------*/
+
+#HomePageID
+{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition-duration: 0.8s;
+}
+
+#bg
+{
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+#bg img
+{
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#homePageHeaderID
+{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 120px;
+  margin-top: 0px;
+  transition-duration: 2s;
+  opacity: 0;
+}
+
+#homePageHeaderID > img
+{
+  width: 12%;
+  height: 100%;
+  min-width: 225px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pBoxContainerID
+{
+  position: absolute;
+  z-index: 1;
+  margin-top: 20%;
+}
+
+.pbBox
+{
+  display: inline-block;
+}
+
+#pBoxSideID
+{
+  width: 25.2%;
+  height: 300px;
+  background: rgba(34,44,55, 1);
+  min-width: 400px;
+  min-height: 200px;
+  float: left;
+}
+
+#pBoxSideID > img
+{
+  width: 150px;
+  height: 150px;
+  margin-top: 16%;
+  margin-left: 30%;
+}
+
+#pBoxID
+{
+  width: 74.5%;
+  height: 300px;
+  background: rgba(34,44,55, 0.65);
+  min-width: 750px;
+  min-height: 200px;
+  margin-top: 0%;
+  margin-left: -100%;
+  float: right;
+}
+
+#pBoxID > h1
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin-top: 5%;
+  margin-left: 12%;
+  margin-right: 8%;
+}
+
+#arrowIndicatorID
+{
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 45%;
+  transition-duration: 1.5s;
+}
+
+#arrowIndicatorID > img
+{
+  width: 2%;
+  height: 20%;
+  min-width: 45px;
+  min-height: 50px;
+  display: block;
+  margin-left: 48.8%;
+  opacity: 0.8;
+  bottom: 0;
+}
+
+/*--------------------TeamPage--------------------*/
+
+#TeamPageID
+{
+  position: relative;
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition-duration: 0.8s;
+}
+
+#TeamPageLeftID
+{
+  width: 50%;
+  height: 100%;
+  background: #222c37;
+  float: left;
+  transition-duration: 0.8s;
+}
+
+#ProfileContainerID
+{
+  margin-left: 10%;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+#ProfileContainerID > h2
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+}
+
+#PrimaelProfileID
+{
+  position: absolute;
+  top: 20%;
+}
+
+#ArthurProfileID
+{
+  position: absolute;
+  top: 45%;
+}
+
+#BriceProfileID
+{
+  position: absolute;
+  top: 70%;
+}
+
+#NameContainerID
+{
+  left: 30%;
+  width: 75%;
+  height: 100%;
+  position: relative;
+}
+
+#PrimaelNameID
+{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+}
+
+#ArthurNameID
+{
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+}
+
+#BriceNameID
+{
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+}
+
+#TeamPageRightID
+{
+  width: 50%;
+  height: 100%;
+  background: #222c37;
+  float: right;
+  transition-duration: 0.8s;
+}
+
+#TeamPageRightID > h2
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin-left: 10%;
+}
+
+#TeamPageRightID > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+#TeamPageRightID > h2
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+/*--------------------RobotHistoryPage------------*/
+
+#RobotHistoryPageID
+{
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition-duration: 0.8s;
+  background-color: white;
+  background-image: url("../src/RobotEvolution.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  opacity: 1;
+}
+
+#RobotHistoryHalfID
+{
+  position: relative;
+  float: right;
+  width: 60%;
+  height: 100%;
+  margin-right: -10%;
+  -webkit-transform: skewX(-20deg);
+  background: #445257;
+}
+
+#RobotHistoryHalfID > h2
+{
+  -webkit-transform: skewX(20deg);
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin-left: 10%;
+}
+
+#RobotHistoryHalfID > p
+{
+  -webkit-transform: skewX(20deg);
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin-left: 12%;
+  margin-right: 25%;
+}
+
+#RobotHistoryHalfID > div
+{
+  -webkit-transform: skewX(20deg);
+  width: 18%;
+  height: 10%;
+  margin-top: 20%;
+  margin-left: 65%;
+}
+
+#RobotHistoryHalfID > div > a > img
+{
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------DisasterPage----------------*/
+
+#DisastersPageID
+{
+  position: relative;
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition-duration: 0.8s;
+  background-image: url("../src/Disaster.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#DisastersHalfID
+{
+  position: relative;
+  float: left;
+  width: 60%;
+  height: 100%;
+  margin-left: -10%;
+  -webkit-transform: skewX(20deg);
+  background: #3B3B3B;
+}
+
+#DisastersHalfID > h2
+{
+  -webkit-transform: skewX(-20deg);
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  float: right;
+  margin-right: 20%;
+}
+
+#DisastersHalfID > p
+{
+  -webkit-transform: skewX(-20deg);
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  float: right;
+  margin-right: 18%;
+  margin-left: 25%;
+  margin-top: 0%;
+}
+
+#DisastersHalfID > div
+{
+  -webkit-transform: skewX(-20deg);
+  width: 18%;
+  height: 10%;
+  margin-top: 70%;
+  margin-right: 50%;
+  margin-left: 14%;
+}
+
+#DisastersHalfID > div > a > img
+{
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------OurRobotPage----------------*/
+
+#OurRobotPageID
+{
+  position: relative;
+  z-index: 8;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition-duration: 0.8s;
+  background-image: url("../src/OurRobotSmall.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#OurRobotHalfID
+{
+  position: relative;
+  float: right;
+  width: 60%;
+  height: 100%;
+  margin-right: -10%;
+  -webkit-transform: skewX(-20deg);
+  background: #37455F;
+}
+
+#OurRobotHalfID > h2
+{
+  -webkit-transform: skewX(20deg);
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  float: left;
+  margin-left: 10%;
+}
+
+#OurRobotHalfID > p
+{
+  -webkit-transform: skewX(20deg);
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  float: left;
+  margin-left: 15%;
+  margin-right: 30%;
+}
+
+#OurRobotHalfID > div
+{
+  -webkit-transform: skewX(20deg);
+  width: 18%;
+  height: 10%;
+  margin-top: 70%;
+  margin-left: 65%;
+}
+
+#OurRobotHalfID > div > a > img
+{
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------ConclusionPage--------------*/
+
+#ConclusionPageID
+{
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition-duration: 0.8s;
+}
+
+#ConclusionLeftID
+{
+  width: 50%;
+  height: 100%;
+  background: #222c37;
+  float: left;
+  transition-duration: 0.8s;
+  -webkit-transform: translateX(-100%);
+}
+
+#ConclusionRightID
+{
+  width: 50%;
+  height: 100%;
+  background: #222c37;
+  float: right;
+  transition-duration: 0.8s;
+  -webkit-transform: translateX(100%);
+}
+
+#ConclusionLeftID > h1
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin-left: 6%;
+}
+
+#ConclusionLeftID > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin-left: 4%;
+}
+
+#ConclusionRightID > p
+{
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: white;
+  margin: 4%;
+}

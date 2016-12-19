@@ -1,0 +1,243 @@
+<!DOCTYPE>
+<meta charset="UTF-8">
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/ComponentsStyle.css">
+    <script src="../js/ComponentsScript.js"></script>
+    <title>A-eye Components</title>
+  </head>
+  </body>
+  <div id="HeaderID">
+    <div>
+      <img src="../src/headerLogo.png"/>
+    </div>
+  </div>
+  <section id="MainContentID">
+    <div style="z-index: 5;">
+
+    </div>
+    <div id="IntroductionID">
+      <h1>Après avoir rempli le cahier des charges et réfléchi aux aspects techniques de notre robot nous avons fait le choix des composants nécessaires à sa conception.</h1>
+    </div>
+    <section id="ArduinoID">
+      <div class="LeftContent">
+        <img src="../../GlobalSources/Photos/ArduinoUnoSketch.jpg" style="-webkit-border-radius: 10px;">
+      </div>
+      <div class="RightContent">
+        <h1>La carte Arduino</h1>
+        <p>Cerveau de notre projet, la carte Arduino assure le fonctionnement des autres composants et collecte les informations des différents capteurs.</p>
+        <input type="image" src="../../GlobalSources/Plus.png" class="MoreButton" onclick="damien(arduino, 0, 350)">
+      </div>
+      <div id="ArduinoExtendID">
+        <div style="height: 18%; width 100%;"></div>
+        <p>
+          L'arduino est une plateforme de prototypage open-source basée sur un hardware et un software simple à utiliser. Elle est capable de réaliser des actions simples comme allumer une LED mais également
+          d'éxécuter des algorithmes complexes tel que ceux utilisé pour la cartographie.
+          La carte Arduino doit être programmé à l'aide de l'IDE (Integated Development Environment) ainsi que le language de programmtion Arduino basé sur le C et le C++.
+        </p>
+        <img src="../../GlobalSources/Photos/ArduinoIDE.jpg" style="width: 60%; height: auto; margin-left: 20%; margin-top: 0%;"/>
+        <p>
+          L'Arduino est utilisé dans beaucoups de projets amateurs mais également professionnels comme par exemple l'imprimante 3D Materia 101 ou même un moteur de fusée basé sur l'Arduino Uno.
+        </p>
+        <img src="../../GlobalSources/Photos/Materia101.png" style="width: 60%; height: auto; margin-left: 20%; margin-top: 0%;"/>
+        <p>
+          La communauté derrière Arduino est énorme , allant de l'étudiant au grand scientifique. Cela a permit de créer une documentation colossale sur internet, elle nous a permit entre autres de prendre
+          en main très rapidement les nouveaux composants.<br>
+          Il existe 3 types d'Arduinos, l'Arduino Nano, l'Arduino Uno et l'Arduino Méga.
+        </p>
+        <img src="../../GlobalSources/Photos/Arduinos.jpg" style="width: 40%; height: auto; margin-left: 30%; margin-top: 0%;"/>
+        <p>
+          Nous avons orienté notre choix vers cette dernière car elle offre plus de ports ainsi qu'une plus grande puissance de calcule et plus de stockage.
+        </p>
+      </div>
+    </section>
+    <section id="MotorShieldID">
+      <div class="LeftContent">
+        <img src="../../GlobalSources/Photos/MotorShield.jpg" style="-webkit-border-radius: 10px;">
+      </div>
+      <div class="RightContent">
+        <h1>La motor shield</h1>
+        <p>La carte Arduino n'étant pas assez puissante pour alimenter deux moteurs, nous utilisons ce motor shield afin d'apporter une seconde source d'énergie.</p>
+        <input type="image" src="../../GlobalSources/Plus.png" class="MoreButton" onclick="damien(motorShield, 0, 200)">
+      </div>
+      <div id="MotorShieldExtendID">
+        <div style="height: 35%; width 100%;"></div>
+        <p>
+          La motor shield est un module qui se connecte à l'Arduino, Il permet d'y ajouter une seconde alimentation, de connecter plusieurs moteurs ainsi que de les controller. Ce module est nécessaire afin de fournir
+          aux moteurs une puissance adéquate. Il permet également de controller la tension envoyée aux moteurs, en ajustant celle-ci il est possible de modifier la vitesse ainsi que le sens de rotation.<br>
+          Le modèle de motor shield que nous avons choisi permet de connecter jusqu'à 4 moteurs.
+        </p>
+        <img src="../../GlobalSources/Photos/MotorShieldAlt.jpg" style="width: 40%; height: auto; margin-left: 30%; margin-top: 0%;"/>
+        <p>
+          Nous n'en n'utiliserons dans ce projet que 2 mais il serait tout à fait possible d'ajouter un servo moteur (moteur ne
+          tournant que de 180° mais permettant de connaitre l'angle exacte de rotation) surmonté d'un capteur à ultrasons afin d'effectuer un scan sur 180°.
+        </p>
+      </div>
+    </section>
+    <section id="BluetoothID">
+      <div class="LeftContent">
+        <img src="../../GlobalSources/Photos/BluetoothDesign.png" style="-webkit-border-radius: 10px;">
+      </div>
+      <div class="RightContent">
+        <h1>Le module Bluetooth</h1>
+        <p>Afin de communiquer les informations reçues par le robot, à l'utilisateur nous avons opté pour un module Bluetooth.</p>
+        <input type="image" src="../../GlobalSources/Plus.png" class="MoreButton" onclick="damien(bluetooth, 0, 600)">
+      </div>
+      <div id="BluetoothExtendID">
+        <div style="height: 11%; width 100%;"></div>
+        <p>
+          <!--Lors de la conception de notre robot il nous a fallu réfléchir à un moyen de communication entre le robot et l'utilisateur. Plusieurs caractéristiques importantes du Bluetooth nous ont insitées à l'intégrer
+          dans notre projet. Tout d'abord sa consommation en énergie est faible ce qui permettera de donner une meilleur autonomie à notre robot, de plus la porté maximale du Bluetooth est d'environs 100 mètres ce qui
+          est suffisant à l'échelle de notre projet, ensuite le Bluetooth opère sur les bandes de fréquence ISM (Industriel, Scientifiques et Médicales) 2.4 GHz, cette fréquence est utilisée car elle ne nécessite
+          aucune license et le risque d'interférence est très faible, ce qui permet une utilisation en intérieur et en extérieur.-->
+          Le Bluetooth à été créé en 1994 par Ericsson, une entreprise suédoise. Le but de cette technologie était de permettre le transfère de données sur de courtes distances entres plusieurs appareils sans aucun cables.
+        </p>
+        <p>
+          Afin de réaliser cet échange de données, les ingénieurs ont utilisés les ondes radios, plus précisement la bande de fréquence 2.4 GHz aussi appelée ISM (Insdustrial, Scientif and Medical). Cette fréquence a pour
+          particularité de ne nécessiter aucune license afin d'être exploitée, ce qui permet au Bluetooth d'être présent partout, aussi cette bande de fréquence est comprise entre 2400 MHz et 2483.5 MHz il a donc été possible
+          de créer un "transceiver" (équipement électronique composé d'un émetteur et d'un récepteur) à sauts de fréquence afin de réduire les interférences.
+        </p>
+          <img src="../../GlobalSources/Photos/SautFrequence.bmp" style="width: 60%; height: auto; margin-left: 20%; margin-top: 0%;"/>
+        <p>
+          Le saut de fréquence était à l'origine utilisé par l'armée afin d'empécher
+          l'écoute de leurs transmissions radios. Son fonctionnement est simple. Si l'on prend l'example de la bande ISM et du Bluetooth, notre bande est composé de 79 canaux, la pèriode du saut de fréquence du Bluetooth est de
+          625 µs ce qui veut dire que toutes des 625 µs le Bluetooth change de canal, soit 1600 fois par secondes. On comprend donc très vite qu'il est impossible d'intercepter une transmission en se placant sur une fréquence qui
+          change 1600 fois par secondes. Cependant ce n'est pas le seul avantage du saut de fréquence, en effet celui-ci permet d'éviter de saturer la bande passante d'un canal et de laisser les autres non-utilisées.
+        </p>
+        <p>
+          Mais commment est transmise l'information au travers d'ondes radios ?<br>
+          Il faut savoir que le language machine est codé en binaire, il n'est donc composé de bits qui prennent pour valeur soit 0 soit 1. En créant des combinaisons il est possible de faire correspondre le système binaire au système décimal.
+        </p>
+          <img src="../../GlobalSources/Photos/BinaryToDecimal.gif" style="width: 40%; height: auto; margin-left: 30%; margin-top: 0%;"/>
+        <p>
+          Une fois que notre information a été transformée sous forme binaire il faut qu'elle soit transmise sous forme d'une onde radio, pour cela il existe deux méthodes (les deux plus communes):
+        </p>
+        <p>
+          La première est la "Modulation par déplacement de fréquence", cette méthode consiste en modifier légèrement la fréquence du signal en fonction de la valeur du bits.
+        </p>
+          <img src="../../GlobalSources/Photos/Frequency-shift_keying_fr.svg" style="width: 40%; height: auto; margin-left: 30%; margin-top: 0%; background: white;"/>
+        <p>
+          Il est possible de voir sur le schéma ci-dessus que lorsque le bit a une valeur de 1 la fréquence du signal modulé est plus élevée et inversement, lorsque la valeur du bit est de 0 la fréquence du signal est plus faible.
+        </p>
+        <p>
+          La seconde méthode est la "Modulation par déplacement d'amplitude", elle consiste à modifier l'amplitude du signal en fonction de la valeur du bit.
+        </p>
+          <img src="../../GlobalSources/Photos/AmplitudeModulation.gif" style="width: 40%; height: auto; margin-left: 30%; margin-top: 0%; background: white;"/>
+        <p>
+          On peut observer sur le schéma que l'amplitude du signal est plus faible lorsque le bit a pour valeur 0 que lorsque qu'il a pour valeur 1.
+        </p>
+        <p>
+          La seconde technique possède plusieurs avantages, elle est par exemple moins affectée par les obstacles physiques et permet d'émettre sur de très grandes distances. Cependant le Bluetooth utilise la première méthode,
+          en effet celle-ci présente des avantages plus attrayants, il est entre autres moins affecté par les bruits (influences perturbatrices sur le signal) car ceux-ci influence l'amplitude du signal. La première méthode permet
+          donc une transmission sur une distance, certe plus courte, mais plus sûr.
+        </p>
+      </div>
+    </section>
+    <section id="CompassID">
+      <div class="LeftContent">
+        <img src="../../GlobalSources/Photos/CompassDesign.jpg" style="-webkit-border-radius: 10px;">
+      </div>
+      <div class="RightContent">
+        <h1>Le gyroscope 3 axes</h1>
+        <p>Pour que notre robot se déplace de façon linéaire et pour augmenter la précision de sa rotation, nous avons décidé d'implémenter un gyroscope à notre robot.</p>
+        <input type="image" src="../../GlobalSources/Plus.png" class="MoreButton" onclick="damien(compass, 0, 208)">
+      </div>
+      <div id="CompassExtendID">
+        <div style="height: 32%; width 100%;"></div>
+        <p>
+          Afin de mesurer l'angle de rotation de notre robot nous utilisons un gyroscope. Celui-ci permet de mesurer un rotation sur 3 axes, pour ce faire le gyroscope est composé d'élements mobiles. Ces élements vont permettre
+          de représenter les mouvements d'un solide dans l'espace.
+        </p>
+          <img src="../../GlobalSources/Photos/GyroscopeSchematic.jpg" style="width: 40%; height: auto; margin-left: 30%; margin-top: 0%; background: white;"/>
+        <p>
+          Ils peuvent donc se déplacer et pivoter sur 3 axes et le feront en fonction des mouvements du gyroscope. Il faut ensuite interpréter ces déplacements afin de connaitre
+          le mouvement qu'a effectué le gyroscope, ceci se fait en étudiant les forces fictives de Coriolis.
+        </p>
+        <video width="50%" height="auto" controls style="margin-left: 25%;">
+            <source src="../../GlobalSources/ImagesIntervention/Coriolis Effect.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>
+          En simplifiant, l'effet de Coriolis se manifeste par la déviation d'un corp en mouvement
+          lorsque celui-ci est dans un milieu lui même en rotation. Il nous permet donc d'interpréter les mouvements des élements lorsque le gyroscope est en mouvement.
+        </p>
+      </div>
+    </section>
+    <section id="SonarID">
+      <div class="LeftContent">
+        <img src="../../GlobalSources/Photos/Sonar.jpg" style="-webkit-border-radius: 10px;">
+      </div>
+      <div class="RightContent">
+        <h1>Les capteurs à ultrasons</h1>
+        <p>Afin de rendre notre robot autonome nous lui avons ajouté des capteurs à ultrasons. Ces capteurs permettents de calculer très simplement la distance d'un obstacle.</p>
+        <input type="image" src="../../GlobalSources/Plus.png" class="MoreButton" onclick="damien(sonar, 0, 225)">
+      </div>
+      <div id="SonarExtendID">
+        <div style="height: 25%; width 100%;"></div>
+        <p>
+          Les capteurs à ultrasons ont pour rôle de permettre au robot d'évaluer des distance. Le fonctionnement de ce type de capteurs est assez simple, il est équipé d'un émetteur ainsi que d'un récepteur à ultrasons, l'emetteur
+          va emettre durant une courte durée un ultrasons, celui-ci va rebondir sur l'obstacle revenir vers le récepteur. En connaissant la vitesse du son dans l'air, qui est de 343.2 m/s à 20°C, il suffit de résoudre l'équation
+          distance = vitesse * temps où la vitesse est égale à 343.2 m/s et le temps est égale à la différence entre le temps d'émission et de réception divisé par deux car ce temps prend en compte l'aller et le retour.
+        </p>
+          <img src="../../GlobalSources/Photos/SonarSchema.jpg" style="width: 40%; height: auto; margin-left: 30%; margin-top: 0%; background: white;"/>
+        <p>
+          Bien que ce type de capteur ait de nombreux avantages, entre autres la portée de l'ultrason qui peut atteindre jusqu'à 250 cm et son prix qui est dérisoire par rapport à celui d'un LIDAR (cf. Notre démarche). Il a tout
+          de même des inconvénients:<br>
+          - La température et la pression vont créer des interférences car la vitesse du son en dépend.<br>
+          - La présence d'ultrasons sur la même fréquence que ceux du capteurs vont produire des interférences.<br>
+          - Dans certains cas l'obstacle ne sera pas perpendiculaire au capteur et l'ultrason risque d'être dévié et ne pas revenir vers la récepteur, dans ce cas l'obstacle sera invisible pour le robot.
+        </p>
+      </div>
+    </section>
+    <section id="LaserID">
+      <div class="LeftContent">
+        <img src="../../GlobalSources/Photos/LaserSensor.jpg" style="-webkit-border-radius: 10px;">
+      </div>
+      <div class="RightContent">
+        <h1>Pointeurs et récepteurs laser</h1>
+        <p>Afin de cartographier l'environnement du robot nous avons besoin de connaitre exactement la vitesse de déplacement de celui-ci. Les pointeurs et les recépteurs vont nous permettre de connaître celle-ci assez simplement.</p>
+        <input type="image" src="../../GlobalSources/Plus.png" class="MoreButton" onclick="damien(laser, 0, 200)">
+      </div>
+      <div id="LaserExtendID">
+        <div style="height: 35%; width 100%;"></div>
+        <p>
+          Afin de réaliser une cartographie, nous avions besoin de connaitre la vitesse de déplacement du robot. La motor shield nous permet de définir une vitesse cependant celle-ci n'est pas exprimée en distance/temps et varie
+          en fonction de la tension envoyée à celle-ci. Nous avons donc élaboré un moyen de connaitre la vitesse du robot à l'aide de pointeurs et de récepteurs lasers. Un pointeur laser est placé d'un coté de la roue et une recepteur
+          de l'autre coté de celle-ci. Lorsqu'un objet opaque passe entre le récepteur et l'émetteur, le récepteur perçoit ce changement d'état. Nos roues ayant 5 rayons, il suffit de compter le nombre de changement d'état et tous les
+          5 changement nous savons que la roue à éffectué une rotation. Il ne reste plus qu'à calculer le périmètre de la roue soit: 2Rayon *  π. Et de mesurer le temps nécessaire pour faire cette rotation. La vitesse étant égale
+          à la distance divisée par le temps, notre équation sera: vitesse = (2Rayon * π) / temps.
+        </p>
+      </div>
+    </section>
+    <section id="ProximityID">
+      <div class="LeftContent">
+        <img src="../../GlobalSources/Photos/IRsensor.jpg" style="-webkit-border-radius: 10px;">
+      </div>
+      <div class="RightContent">
+        <h1>Les capteurs de proximité, à Infrarouges</h1>
+        <p>En plaçant ces capteurs infrarouges à des endroits stratégiques vont nous permettre d'éviter d'entrer en collision avec des obstacles que les capteurs à ultrasons n'auraient pas vu.</p>
+        <input type="image" src="../../GlobalSources/Plus.png" class="MoreButton" onclick="damien(proximity, 0, 200)">
+      </div>
+      <div id="ProximityExtendID">
+        <div style="height: 35%; width 100%;"></div>
+        <p>
+          Capteurs infrarouges
+
+          Comme pour les capteurs à ultrason, les capteurs à infrarouges fonctionnent sur un principe d’émission/réception. Sauf que l'émetteur cette fois-ci, diffusera des ondes infrarouges,
+          c’est-à-dire les radiations du spectre électromagnétique correspondant à des rayonnements de longueurs d'onde supérieures à celles de la lumière visible, et inférieures à celles du domaine
+          des micro-ondes (les infrarouges se situent donc entre 7μm et 0.1mm).
+        </p>
+        <img src="../../GlobalSources/Photos/Infrarouge.jpg" style="width: 40%; height: auto; margin-left: 30%; margin-top: 0%; background: white;"/>
+        <p>
+          Après une brève émission, les ondes envoyées percutent un obstacle et son renvoyées vers le capteur.
+          Pour connaître la distance il suffit de résoudre l’équation :
+          distance = (vitesse x temps)/2
+          avec : vitesse = Célérité =299 792 458 m/s (souvent arrondi à 3.00 x 10E8 m/s)
+          Le principal avantage des capteurs infrarouges est que la vitesse de la lumière reste plus ou moins constante dans l’air, sans que la température n’ait un impact conséquent obligeant un
+          paramétrage différent pour chaque température ambiante. Son principal désavantage est que une réflexion est seulement partielle sur une surface noire.
+        </p>
+      </div>
+    </section>
+  </section>
+  </body>
+</html>
